@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+    box-sizing: border-box;
+    list-style: none;
+    color: inherit; 
+    text-decoration: none; 
+}
+
+::selection{
+    background-color: #6B46FF;
+    color: #fff;
+}
+
+.navigation{
+
+    justify-content: normal !important;
+}
+
+.input{
+    width: 300px; 
+    background-color: #F9FAFB;
+    border-radius: 9px; 
+    padding: 4px 13px; 
+    border: 1px solid #e7e8ea;
+
+
+} 
+
+.input_box{
+    flex: 1;
+    border: none;
+    outline: none; 
+    background-color: transparent; 
+    font-size: 16px;
+}
+
+.color{
+    color: #6B46FF;
+}
+
+.btn-color{
+    background-color: #6B46FF; 
+    color: #fff; 
+    
+    &:hover{
+        border: 1px solid #6B46FF;
+    }
+}
+
+.btn-border{
+    border: 1px solid #6B46FF; 
+
+    &:hover{
+        border: 1px solid #6B46FF;
+    }
+}
+
+.bg-color{
+    background-color: #fbfdff;
+}
+
+header{
+    position: sticky;
+    top: 0px; 
+    z-index: 9999;
+
+}
+
+.bd{
+    border-bottom: 1px solid transparent;
+    transition: 0.3s all ease-in-out;
+
+    &:hover{
+        border-bottom: 1px solid #6B46FF;
+    }
+}
+
+
+.bg-btn{
+    background-color: #F9F5FF; 
+
+    &:hover{
+    border: 1px solid #6B46FF; 
+    color: #6B46FF;
+    }
+}
+
+
+.head1{
+    font-size: 60px;
+    line-height: 72px; 
+}
+
+.pr-clr{
+    color: #475467;
+}
+
+.bg-clr{
+    background-color: rgba(107, 70, 255, 1);
+}
+
+.btn1{
+
+    &:hover{
+        border: 1px solid #6B46FF;
+        color: #6B46FF !important;
+    }
+}
+
+.award-bg{
+    background-color: #F4EBFF; 
+    height: 75px; 
+    width: 75px; 
+
+}
+
+.s-bg{
+    background-color: #F9FAFB;
+}
+
+.btn2{
+
+    transition: 0.2s all linear; 
+
+    &:hover{
+        background-color: #6B46FF;
+        color: #fff; 
+        border: 1px solid transparent;
+    }
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+
+}
+
+
+
+@media (min-width:1200px){
+    .head1{
+        font-size: 60px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1200px){
+    .head1{
+        font-size: 60px;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:992px){
+    .head1{
+        font-size: 60px;
+    }
+}
+
+@media (min-width:576px) and (max-width:768px){
+    .head1{
+        font-size: 60px;
+    }
+
+}
+@media (min-width:0px) and (max-width:576px){
+    .head1{
+        font-size: 40px;
+        line-height: 40px; 
+    }
+
+    .btn-custom{
+        padding: 5px; 
+        font-size: 16px;
+    }
+}
